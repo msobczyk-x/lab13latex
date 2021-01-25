@@ -1,7 +1,12 @@
-\documentclass[16pt,a4]{article}
+\documentclass[11pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[cp1250]{inputenc}
+\usepackage{latexsym}
+\usepackage{polski}
 
+\frenchspacing
 \begin{document}
 \begin{titlepage}
     \begin{center}
@@ -34,12 +39,49 @@
             
     \end{center}
 \end{titlepage}
-
+\tableofcontents
+\newpage
 \section{Definicja komputera}
-Komputer (od ang. computer); dawniej: mózg elektronowy, elektroniczna maszyna cyfrowa, maszyna matematyczna[2] – maszyna przeznaczona do przetwarzania informacji, które da się zapisać w formie ciągu cyfr albo sygnału ciągłego. Maszyna roku tygodnika „Time” w 1982 roku.
+Komputer (od ang. computer); dawniej: mózg elektronowy, elektroniczna maszyna cyfrowa, maszyna matematyczna – maszyna przeznaczona do przetwarzania informacji, które da się zapisać w formie ciągu cyfr albo sygnału ciągłego. Maszyna roku tygodnika „Time” w 1982 roku.
 
 
 \section{Pierwsze komputery}
+Pierwszym w historii komputerem był ENIAC. Było to już ponad 70 lat temu! Komputer został zaprojektowany w 1945 roku przez naukowców z Uniwersytetu w Pensylwanii. Publicznie zaprezentowano go już rok później na Uniwersytecie w Princeton. Jak nietrudno zgadnąć, ENIAC nie miał jakichś szczególnie, jak na dzisiejsze standardy wysokich osiągów.\\ Pracował z taktowaniem zaledwie 0,1 MHz, to w tamtych czasach robiło olbrzymie wrażenie. Dla porównania nawet proste współcześnie stosowane smartfony są około 50 tysięcy razy szybsze! Do wykonania ENIACA konieczne było zastosowanie ponad 70 tysięcy rezystorów, 1500 przekaźników, 10 tysięcy kondensatorów oraz 6 tysięcy ręcznych przełączników. Do sprawnej obsługi ENIACA potrzebny był też cały sztab ludzi. Sam komputer zajmował też bardzo dużo miejsca, bo aż 167 m2 powierzchni. Miał 2,4 m wysokości i aż 24 metry długości. Ważył również niemało, bo aż 27 ton.\\ Co ciekawe stworzono go z myślą o ułatwieniu produkcji tablic balistycznych. Jego koszt sięgnął około 6 milionów dolarów.
+
+\begin{center}
+\caption{Inżynier obsługujący ENIAC}
+   \includegraphics[width=0.8\textwidth]{eniac.jpg} 
+   
+\end{center}
+\subsection{Porównanie mocy obliczeniowej}
+
+\begin{table}[h!]
+\centering
+    \begin{tabularx}{0.8\textwidth} { 
+  | >{\raggedright\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\raggedleft\arraybackslash}X | }
+ \hline
+ Nazwa & Rok & Moc obliczeniowa \\
+ \hline
+ ENIAC  & 1945  & 0,1 MHz  \\
+
+\hline
+ CDC6600  & 1964  & 10 MHz  \\
+
+\hline
+ Cray-2  & 1985 & 244 MHz  \\
+
+\hline
+ Commodore 64  & 1982  & 1 MHz  \\
+\hline
+\end{tabularx}
+\caption{Tabela porównująca moce obliczeniowe pierwszych komputerów}
+\label{table:1}
+\end{table}
 
 
+
+
+\listoftables
 \end{document}
